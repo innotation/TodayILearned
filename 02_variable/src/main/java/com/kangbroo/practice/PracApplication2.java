@@ -5,6 +5,6 @@ public class PracApplication2 {
         double height = 12.5;
         double width = 36.4;
         System.out.printf("면적: %.1f\n", height * width );
-        System.out.printf("둘레: %.1f\n", height + width );
+        System.out.printf("둘레: %.1f\n", 2*(height + width) );
     }
 }
