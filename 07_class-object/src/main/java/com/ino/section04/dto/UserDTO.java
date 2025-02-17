@@ -5,6 +5,9 @@ public class UserDTO {
     private String pwd;
     private String name;
 
+    public UserDTO() {
+
+    }
     public UserDTO(String id, String pwd) {
         this.id = id;
         this.pwd = pwd;
